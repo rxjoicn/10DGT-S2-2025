@@ -1,6 +1,8 @@
 # Author: Josh Cheng
 # Date: 2025-09-17
 # Yr10 DGT Semester 2 Intro Lesson
+# Version 1.0
+# Changelog:
 
 # TODO:
 # Write a Python program that is a random number generator between 1 and 1000
