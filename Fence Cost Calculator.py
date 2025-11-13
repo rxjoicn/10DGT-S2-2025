@@ -31,6 +31,7 @@ while keep_going == "":
     print()
         
     cost = valid_num("Enter the cost/m for the fence as a positive number greater than 0: ",0)
+    print(f"You have entered the cost/m as: {cost}m")
     print()
 
     perimeter = 2 * float(length + width)
