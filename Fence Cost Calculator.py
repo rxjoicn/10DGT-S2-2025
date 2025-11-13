@@ -1,3 +1,4 @@
+# Checks whether if number entered is a positive integer greater than zero
 def valid_num(dimension,min):
     error = f"Whoops, that is not an interger greater than {min}. \n"
     
@@ -16,6 +17,7 @@ def valid_num(dimension,min):
     return response
 
 keep_going = ""
+# Asks the user for values (Width, Length, Cost, etc.)
 while keep_going == "":
     width = valid_num("Enter the width as a positve number greater than 0: ", 0)
     print(f"You have entered the width as: {width}m")
@@ -36,7 +38,8 @@ while keep_going == "":
     total_cost = float(perimeter * cost)
     print(f"The total cost of fencing for your entered values is ${total_cost}.")
     print()
-
+    
+    # Asks the user if they want to run the program again.
     keep_going = input("Do you want to run it again? <ENTER> - Yes, <ANY OTHER KEY> - EXIT: ")
 print("Thanks for using, have a good day!")
             
